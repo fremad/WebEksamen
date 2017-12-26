@@ -1,0 +1,53 @@
+extends layout
+
+block content
+
+    a(href="..") Home
+
+    h1 #{workout.name}
+
+
+    button.btn.btn-danger.btn-lg(type='button' data-toggle="modal" data-target="#myModal") New exercise
+    hr
+    table.table
+        thead.thead-inverse
+            tr
+                th Exercise
+                th Description
+                th Sets
+                th Reps
+        tbody
+
+            each val in workout.exercises
+                tr
+                    td= val.exercise
+                    td= val.description
+                    td= val.exset
+                    td= val.reps
+            else
+                p= "there are no exercises in this workout"
+
+    .modal.fade#myModal(role='dialog')
+            .modal-dialog.modal-lg
+                .modal-content
+                    .modal-header.modal-header-danger
+                        button.close(type='button' data-dismiss='modal') &times
+                        h4.modal-title New Workout
+                    .modal-body
+                        form(action=workout._id+'/exercise', method="post").my-form
+                            .form-group
+                                label(for="ex-name") Exercise
+                                input.form-control(type="text" name='exercise' class="" id="ex-name" placeholder="Exercise name..." required)
+                            .form-group
+                                label(for="ex-desc") Description
+                                input.form-control(type="text" name='description' id="ex-desc" placeholder="Exercise description..." required)
+                            .form-group
+                                label(for="ex-set") Sets
+                                input.form-control(type="number" name='exset' id="ex-set" placeholder="Nr of sets..." required)
+                            .form-group
+                                label(for="ex-reps") Reps
+                                input.form-control(type="number" name='reps' id="ex-reps" placeholder="Nr of reps..." required)
+                            
+                            .modal-footer
+                                input(type='submit' value='Submit').btn.btn-primary
+                                button(type='button' data-dismiss='modal').btn.btn-default Close
