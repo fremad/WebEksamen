@@ -1,0 +1,11 @@
+C:\Users\Lars Hjerrild\Documents\Skole\WebEksamen\Question1\bin\Debug\netcoreapp2.0\Question1.deps.json
+C:\Users\Lars Hjerrild\Documents\Skole\WebEksamen\Question1\bin\Debug\netcoreapp2.0\Question1.runtimeconfig.json
+C:\Users\Lars Hjerrild\Documents\Skole\WebEksamen\Question1\bin\Debug\netcoreapp2.0\Question1.runtimeconfig.dev.json
+C:\Users\Lars Hjerrild\Documents\Skole\WebEksamen\Question1\bin\Debug\netcoreapp2.0\Question1.dll
+C:\Users\Lars Hjerrild\Documents\Skole\WebEksamen\Question1\bin\Debug\netcoreapp2.0\Question1.pdb
+C:\Users\Lars Hjerrild\Documents\Skole\WebEksamen\Question1\obj\Debug\netcoreapp2.0\Question1.csprojResolveAssemblyReference.cache
+C:\Users\Lars Hjerrild\Documents\Skole\WebEksamen\Question1\obj\Debug\netcoreapp2.0\Question1.csproj.CoreCompileInputs.cache
+C:\Users\Lars Hjerrild\Documents\Skole\WebEksamen\Question1\obj\Debug\netcoreapp2.0\Question1.AssemblyInfoInputs.cache
+C:\Users\Lars Hjerrild\Documents\Skole\WebEksamen\Question1\obj\Debug\netcoreapp2.0\Question1.AssemblyInfo.cs
+C:\Users\Lars Hjerrild\Documents\Skole\WebEksamen\Question1\obj\Debug\netcoreapp2.0\Question1.dll
+C:\Users\Lars Hjerrild\Documents\Skole\WebEksamen\Question1\obj\Debug\netcoreapp2.0\Question1.pdb

@@ -1,0 +1,21 @@
+h1 {
+  color: #3bbfce; }
+
+#example1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3bbfce; }
+
+.message, .success, .error, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+.success {
+  border-color: green; }
+
+.error {
+  border-color: red; }
+
+.warning {
+  border-color: yellow; }
